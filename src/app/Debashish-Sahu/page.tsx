@@ -28,7 +28,7 @@ export default function page() {
         <Link href="/Debashish-Sahu/work">
       <button className='bg-cyan-400 text-black w-44 pl-3 pr-3 p-2 m-4 rounded-lg'>
         
-        My Portfolio ></button>
+        My Portfolio </button>
         </Link>
       </section>
       <section className='mt-2 p-2'>
