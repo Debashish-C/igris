@@ -5,8 +5,8 @@ export default function Navbar() {
   return (
     <nav className='w-full p-4 bg-amber-000 bg-transparent fixed  top-0 flex justify-between '>
         <ul className='flex justify-center items-center gap-4'>
-            <Link href="/Debashish-Sahu" className='font-bold'>Debashish Sahu</Link>
-            <Link href="/Debashish-Sahu/work">
+            <Link href="/" className='font-bold'>Debashish Sahu</Link>
+            <Link href="/work">
                 Work
             </Link>
             <li>
