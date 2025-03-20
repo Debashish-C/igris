@@ -1,13 +1,17 @@
+import Project from '@/ui/Project'
+import Link from 'next/link'
 import React from 'react'
 
-export default function Work() {
+export default function layout() {
   return (
-    <div className='flex justify-center items-center'>
-      <div className="max-w-xl mt-10 p-2 flex flex-col">
-            <h1 className='font-bold text-start'>
-                Works
-                </h1>
-      </div>
+    <div>
+      <Link href="/work/linkbee">
+          <Project image = "" name ="" title="" />
+      </Link>
+      <h1 className='font-bold'>Old Works</h1>
+      <Link href="/work/linkbee">
+      <Project image="/linkbee.png" name="linkbee" title="A social media gethering platform"/>
+      </Link>
     </div>
   )
 }
